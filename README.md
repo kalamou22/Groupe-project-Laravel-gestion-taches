@@ -79,12 +79,12 @@ cp .env.example .env
 php artisan key:generate
 
 # Configurer la base de données PostgreSQL dans .env
-DB_CONNECTION=pgsql
-DB_HOST=127.0.0.1
+DB_CONNECTION=
+DB_HOST=1
 DB_PORT=5432
-DB_DATABASE=gestion_taches
-DB_USERNAME=postgres
-DB_PASSWORD=votre_mot_de_passe
+DB_DATABASE
+DB_USERNAME=p
+DB_PASSWORD=
 
 # Exécuter les migrations
 php artisan migrate
@@ -204,6 +204,34 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 **Kalamou**
 - Email : kalamou2021@gmail.com
 - GitHub : [@kalamou22](https://github.com/kalamou22)
+
+## 👥 Équipe de Développement
+
+Ce projet a été développé par une équipe d'étudiants dans le cadre d'un projet de groupe.
+
+### 🎯 Membres de l'Équipe
+
+| Nom | Rôle | Email | GitHub |
+|-----|------|-------|--------|
+| **MOUSSA NDIAYE** | Chef de projet / Développeur Full-Stack | kalamou2021@gmail.com | [@kalamou22](https://github.com/kalamou22) |
+| **MASSAMBA DIAW** | Développeur Frontend | [email] | [@username] |
+| **MARIE MBAYE** | Designer UI/UX | [email] | [@username] |
+| **FLAVIA CECILE MALOU** | Testeur / QA | [email] | [@username] |
+
+### 📋 Répartition des Tâches
+
+- **MOUSSA NDIAYE** : Architecture globale, API Laravel, Authentification, Base de données
+- **MASSAMBA DIAW** : Interface utilisateur React, Composants frontend
+- **MARIE MBAYE** : Design UI/UX, Maquettes, Expérience utilisateur
+- **FLAVIA CECILE MALOU** : Tests, Assurance qualité, Documentation
+
+### 🎓 Contexte du Projet
+
+Ce projet a été réalisé dans le cadre du cours **[Nom du cours]** à **[Nom de l'institution]**.
+
+**Année académique :** 2024-2025  
+**Semestre :** [5]  
+**Encadrant :** [MRS LY]
 
 ## 🙏 Remerciements
 

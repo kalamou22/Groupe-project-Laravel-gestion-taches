@@ -1,106 +1,115 @@
-# Changements : Remplacement des Noms Français par des Noms Sénégalais
+# 📝 Changements - Noms de l'Équipe Sénégalaise
 
-## Résumé des Modifications
+## 👥 Équipe de Développement - Projet Gestion de Tâches
 
-Tous les noms d'utilisateurs français ont été remplacés par des noms sénégalais authentiques dans l'application de gestion de tâches.
+### 🎯 Membres de l'Équipe
 
-## Fichiers Modifiés
+| # | Nom | Rôle | Responsabilités |
+|---|-----|------|-----------------|
+| 1 | **MOUSSA NDIAYE** | Chef de projet / Développeur Full-Stack | Architecture globale, API Laravel, Authentification, Base de données |
+| 2 | **MASSAMBA DIAW** | Développeur Frontend | Interface utilisateur React, Composants frontend |
+| 3 | **MARIE MBAYE** | Designer UI/UX | Design UI/UX, Maquettes, Expérience utilisateur |
+| 4 | **FLAVIA CECILE MALOU** | Testeur / QA | Tests, Assurance qualité, Documentation |
 
-### 1. Backend - Seeders
-- **`backend/database/seeders/UsersSeeder.php`** : Remplacement de 30 noms français par des noms sénégalais
-- **`backend/database/factories/UserFactory.php`** : Ajout d'une liste de noms sénégalais pour la génération de données de test
+## 📋 Détails des Membres
 
-### 2. Frontend - Hooks
-- **`frontend/src/hooks/useUsers.js`** : Mise à jour des données de fallback avec les noms sénégalais
+### 🚀 MOUSSA NDIAYE
+- **Rôle principal :** Chef de projet & Développeur Full-Stack
+- **Email :** kalamou2021@gmail.com
+- **GitHub :** [@kalamou22](https://github.com/kalamou22)
+- **Technologies maîtrisées :** Laravel, React, PostgreSQL, Git
 
-## Noms Sénégalais Utilisés
+### 🎨 MASSAMBA DIAW
+- **Rôle principal :** Développeur Frontend
+- **Spécialités :** React, JavaScript, Interface utilisateur
+- **Responsabilités :**
+  - Interface utilisateur React
+  - Composants réutilisables
+  - Gestion d'état avec Context API
+  - Responsive design
+  - Tests d'interface
+- **Rôle principal :** Développeur Frontend
+- **Spécialités :** React, JavaScript, Interface utilisateur
+- **Responsabilités :**
+  - Interface utilisateur React
+  - Composants réutilisables
+  - Gestion d'état avec Context API
+  - Responsive design
+  - Tests d'interface
 
-### Équipe de Développement
-- Mamadou Diallo
-- Fatou Sall
-- Ousmane Ba
-- Aissatou Diop
-- Ibrahima Ndiaye
+### 🎨 MARIE MBAYE
+- **Rôle principal :** Designer UI/UX
+- **Spécialités :** Design, Expérience utilisateur, Maquettes
+- **Responsabilités :**
+  - Conception de l'interface utilisateur
+  - Expérience utilisateur (UX)
+  - Maquettes et prototypes
+  - Guide de style
+  - Tests d'utilisabilité
 
-### Équipe de Design
-- Mariama Fall
-- Modou Gueye
-- Aminata Mbaye
-- Cheikh Thiam
+### 🧪 FLAVIA CECILE MALOU
+- **Rôle principal :** Testeur & Assurance Qualité
+- **Spécialités :** Tests, QA, Documentation
+- **Responsabilités :**
+  - Tests fonctionnels
+  - Tests d'intégration
+  - Tests de performance
+  - Documentation des bugs
+  - Assurance qualité
 
-### Équipe de Test
-- Khadija Sow
-- Abdou Cisse
-- Mame Diarra Faye
+## 🎓 Contexte Académique
 
-### Équipe de Gestion de Projet
-- Moussa Camara
-- Awa Diagne
-- Boubacar Seck
+**Institution :** [Nom de l'institution]  
+**Cours :** [Nom du cours]  
+**Année académique :** 2024-2025  
+**Semestre :** [Numéro du semestre]  
+**Encadrant :** [Nom du professeur/encadrant]  
+**Type de projet :** Projet de groupe - Application web complète
 
-### Équipe DevOps
-- Ndeye Fatou Wade
-- Malick Sy
-- Aicha Toure
+## 📊 Répartition du Travail
 
-### Équipe Marketing
-- Samba Niang
-- Rokhaya Diouf
-- El Hadji Mbodj
+| Tâche | Responsable | Statut | Description |
+|-------|-------------|--------|-------------|
+| Architecture Backend | MOUSSA NDIAYE | ✅ Terminé | Structure globale de l'API |
+| API Laravel | MOUSSA NDIAYE | ✅ Terminé | Endpoints et contrôleurs |
+| Base de données | MOUSSA NDIAYE | ✅ Terminé | Modèles et migrations |
+| Interface React | MOUSSA NDIAYE | ✅ Terminé | Composants principaux |
+| Authentification | MOUSSA NDIAYE | ✅ Terminé | Système de connexion |
+| Gestion des projets | MASSAMBA DIAW | 🔄 En cours | CRUD des projets |
+| Gestion des tâches | MASSAMBA DIAW | 🔄 En cours | CRUD des tâches |
+| Design UI/UX | MARIE MBAYE | 🔄 En cours | Interface utilisateur |
+| Tests & QA | FLAVIA CECILE MALOU | 🔄 En cours | Tests et qualité |
 
-### Équipe Support
-- Adama Kane
-- Moussa Diop
-- Nafissatou Diallo
+## 🤝 Collaboration
 
-### Équipe Finance
-- Mamadou Lamine Diop
-- Fatou Bintou Fall
+### Outils utilisés :
+- **GitHub** : Gestion du code source
+- **Discord/Slack** : Communication d'équipe
+- **Trello/Notion** : Gestion des tâches
+- **Figma** : Design et maquettes
 
-### Équipe RH
-- Omar Sene
-- Mariama Ba
+### Méthodologie :
+- **Agile/Scrum** : Sprints de développement
+- **Code Review** : Validation du code
+- **Tests** : Assurance qualité
+- **Documentation** : Maintenance du projet
 
-### Consultants Externes
-- Mame Fatou Ndiaye
-- Ibrahima Fall
-- Aissatou Gueye
+## 🏆 Réalisations
 
-### Administrateur
-- Mamadou Admin (admin@infyproject.com)
+- ✅ Application web complète et fonctionnelle
+- ✅ Interface utilisateur moderne et responsive
+- ✅ API RESTful sécurisée
+- ✅ Base de données PostgreSQL optimisée
+- ✅ Authentification et autorisation
+- ✅ Gestion de projets et tâches
+- ✅ Déploiement sur GitHub
 
-## Actions Effectuées
+## 📞 Contact
 
-1. **Modification des seeders** : Remplacement de tous les noms français par des noms sénégalais
-2. **Mise à jour de la factory** : Ajout d'une liste de noms sénégalais pour la génération de données
-3. **Modification du frontend** : Mise à jour des données de fallback
-4. **Réinitialisation de la base de données** : Suppression et recréation avec les nouveaux noms
-5. **Création d'un admin sénégalais** : Ajout d'un compte administrateur avec un nom sénégalais
+Pour toute question concernant ce projet, contactez l'équipe via :
+- **Email principal :** kalamou2021@gmail.com
+- **GitHub :** [https://github.com/kalamou22/Groupe-project-Laravel-gestion-taches](https://github.com/kalamou22/Groupe-project-Laravel-gestion-taches)
 
-## Informations de Connexion
+---
 
-- **Email admin** : admin@infyproject.com
-- **Mot de passe** : password123
-
-## Commandes Exécutées
-
-```bash
-# Réinitialisation de la base de données
-php artisan migrate:fresh --seed
-
-# Création des projets et tâches
-php artisan db:seed --class=ProjectsAndTasksSeeder
-
-# Création de l'admin sénégalais
-php artisan tinker --execute="App\Models\User::create(['name' => 'Mamadou Admin', 'email' => 'admin@infyproject.com', 'password' => Hash::make('password123'), 'role' => 'admin', 'email_verified_at' => now()]);"
-```
-
-## Résultat
-
-- ✅ 30 utilisateurs sénégalais créés
-- ✅ 10 projets créés
-- ✅ 56 tâches créées
-- ✅ 1 administrateur sénégalais créé
-- ✅ Tous les noms français remplacés par des noms sénégalais authentiques
-
-L'application est maintenant entièrement localisée avec des noms sénégalais et prête à être utilisée. 
+*Ce projet a été développé avec passion et collaboration par toute l'équipe sénégalaise.* 🚀 🇸🇳 
