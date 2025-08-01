@@ -207,7 +207,7 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## 👥 Équipe de Développement
 
-Ce projet a été développé par une équipe d'étudiants dans le cadre d'un projet de groupe.
+Ce projet a été développé par une équipe d'étudiants sénégalais dans le cadre d'un projet de groupe.
 
 ### 🎯 Membres de l'Équipe
 

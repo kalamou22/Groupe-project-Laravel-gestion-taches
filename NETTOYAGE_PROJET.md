@@ -94,7 +94,7 @@ Gestion_taches/
 ├── 📄 README.md               # Documentation principale
 ├── 📄 DOCUMENTATION.md        # Documentation complète
 ├── 📄 CONTRIBUTORS.md         # Profils de l'équipe
-├── 📄 CHANGEMENTS_NOMS_SENEGALAIS.md  # Équipe sénégalaise
+
 ├── 📄 NETTOYAGE_PROJET.md     # Ce rapport
 ├── 📄 .gitignore              # Fichiers ignorés
 ├── 📄 install-postgresql.sh   # Script d'installation
