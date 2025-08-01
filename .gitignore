@@ -56,6 +56,13 @@ coverage/
 *.sqlite
 *.db
 
+# PostgreSQL specific
+*.sql
+*.dump
+*.backup
+pg_dump_*
+postgresql_*
+
 # Temporary files
 *.tmp
 *.temp

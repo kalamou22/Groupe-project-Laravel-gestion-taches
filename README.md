@@ -39,7 +39,7 @@ Une application moderne de gestion de projets et de tâches développée avec **
 ### Backend (Laravel)
 - **Laravel 10** - Framework PHP
 - **Laravel Sanctum** - Authentification API
-- **MySQL** - Base de données
+- **PostgreSQL** - Base de données
 - **Eloquent ORM** - Gestion des données
 - **API RESTful** - Architecture API
 
@@ -57,13 +57,13 @@ Une application moderne de gestion de projets et de tâches développée avec **
 - PHP 8.1+
 - Composer
 - Node.js 16+
-- MySQL 8.0+
+- PostgreSQL 12+
 - Git
 
 ### 1. Cloner le projet
 ```bash
-git clone https://github.com/votre-username/gestion-taches.git
-cd gestion-taches
+git clone https://github.com/kalamou22/Groupe-project-Laravel-gestion-taches.git
+cd Groupe-project-Laravel-gestion-taches
 ```
 
 ### 2. Configuration Backend (Laravel)
@@ -78,13 +78,13 @@ cp .env.example .env
 # Générer la clé d'application
 php artisan key:generate
 
-# Configurer la base de données dans .env
-DB_CONNECTION=mysql
+# Configurer la base de données PostgreSQL dans .env
+DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
-DB_PORT=3306
+DB_PORT=5432
 DB_DATABASE=gestion_taches
-DB_USERNAME=root
-DB_PASSWORD=
+DB_USERNAME=postgres
+DB_PASSWORD=votre_mot_de_passe
 
 # Exécuter les migrations
 php artisan migrate
@@ -153,12 +153,12 @@ APP_KEY=base64:...
 APP_DEBUG=true
 APP_URL=http://localhost:8000
 
-DB_CONNECTION=mysql
+DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
-DB_PORT=3306
+DB_PORT=5432
 DB_DATABASE=gestion_taches
-DB_USERNAME=root
-DB_PASSWORD=
+DB_USERNAME=postgres
+DB_PASSWORD=votre_mot_de_passe
 
 CORS_ALLOWED_ORIGINS=http://localhost:3000
 ```
@@ -173,7 +173,7 @@ REACT_APP_API_URL=http://localhost:8000/api
 ### Production
 1. **Backend** : Configurer un serveur web (Apache/Nginx) avec PHP
 2. **Frontend** : Build de production avec `npm run build`
-3. **Base de données** : Configurer MySQL en production
+3. **Base de données** : Configurer PostgreSQL en production
 4. **Variables d'environnement** : Adapter les URLs et configurations
 
 ### Docker (Optionnel)
@@ -201,9 +201,9 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## 👨‍💻 Auteur
 
-**Votre Nom**
-- Email : votre-email@example.com
-- GitHub : [@votre-username](https://github.com/votre-username)
+**Kalamou**
+- Email : kalamou2021@gmail.com
+- GitHub : [@kalamou22](https://github.com/kalamou22)
 
 ## 🙏 Remerciements
 
@@ -211,6 +211,7 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 - **React** pour la bibliothèque frontend
 - **Tailwind CSS** pour le framework CSS
 - **Recharts** pour les graphiques
+- **PostgreSQL** pour la base de données
 - **Tous les contributeurs** qui ont participé au projet
 
 ---
