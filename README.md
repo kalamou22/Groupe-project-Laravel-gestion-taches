@@ -244,4 +244,3 @@ Ce projet a été réalisé dans le cadre du cours **[Nom du cours]** à **[Nom 
 
 ---
 
-⭐ Si ce projet vous plaît, n'oubliez pas de le star sur GitHub ! 
